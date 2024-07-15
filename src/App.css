@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+ 
+  background-image: linear-gradient( 179deg,  rgba(0, 0, 0, 0.8) 9.2%, rgba(127, 16, 16, 0.8) 103.9% );
+  background-attachment: fixed;
+}
+
+.container {
+    background-image: linear-gradient( 179deg,  rgba(0,0,0,1) 9.2%, rgba(127,16,16,1) 103.9% );
+    margin: 3rem auto;
+    max-width: 600px;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0px 0px 100px rgba(255, 255, 255, 0.5);
+}
+
+header h1{
+    text-align: center;
+    font-size: 3rem;
+    color: #fff;
+    text-shadow: 3px 3px 3px #000;
+    margin-bottom: 2rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-color: #fff;
+    text-decoration-thickness: 3px;
+    text-decoration-style: wavy;
+}
+
+.formControl{
+    color: whitesmoke;
+    margin: 20px 0;
+}
+
+.formControl input{
+    width: 100%;
+    height: 40px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.formControl input:focus{
+    outline: none;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+}
+
+.btn-submit{
+    width: 100%;
+    
+}
+
+header{
+    text-align: center;
+    font-size: 3rem;
+    margin: 1rem;
+}
+
+.btn{
+    background-color: rgb(245, 201, 120);
+    color: #000;
+    font-size: 1.2rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;    
+    border: none;
+    border-radius: 5px;
+    padding: 1rem;    
+    cursor: pointer;
+    margin: 0 auto;
+
+
+}
+
+
+h3 {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+ /* yapılmamış false */
+.gorev {
+ 
+   background: rgb(255, 255, 121);
+   margin: 5px;
+   padding: 10px 20px;
+   cursor: pointer;
+}
+ /* yapılmış true */
+.done {
+   border-left: 10px solid rgb(102, 18, 77);
+   text-decoration: line-through;
+   background-color: darkgrey;
+   padding: 10px 20px;
+ 
+}
